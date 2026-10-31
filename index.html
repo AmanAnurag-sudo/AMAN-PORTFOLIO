@@ -27,7 +27,17 @@
         </nav>
 
 
-        <a href="#contact" class="nav-button">Let's Talk ↗</a>
+        <div class="nav-actions">
+            <a href="#contact" class="nav-button">Let's Talk ↗</a>
+            <button
+                type="button"
+                class="theme-toggle"
+                id="theme-toggle"
+                aria-label="Switch to light mode"
+                aria-pressed="false">
+                ☼ Light
+            </button>
+        </div>
     </header>
 
     <main>
@@ -96,7 +106,7 @@
                     </div>
                 </div>
 
-                <div class="floating-badge badge-one">{" "}01 — DEVELOP</div>
+                <div class="floating-badge badge-one">01 — DEVELOP</div>
                 <div class="floating-badge badge-two">02 — ANALYZE</div>
             </div>
 
@@ -185,7 +195,7 @@
                         <span>MongoDB</span>
                     </div>
 
-                    <a href="#" class="project-link">View Project ↗</a>
+                    <span class="project-link project-link-unavailable">Project link coming soon</span>
                 </article>
 
                 <article class="project-card">
@@ -204,7 +214,7 @@
                         <span>JavaScript</span>
                     </div>
 
-                    <a href="#" class="project-link">View Project ↗</a>
+                    <span class="project-link project-link-unavailable">Project link coming soon</span>
                 </article>
 
                 <article class="project-card">
@@ -223,7 +233,7 @@
                         <span>MongoDB</span>
                     </div>
 
-                    <a href="#" class="project-link">View Project ↗</a>
+                    <span class="project-link project-link-unavailable">Project link coming soon</span>
                 </article>
 
                 <article class="project-card">
@@ -242,55 +252,53 @@
                         <span>Power BI</span>
                     </div>
 
-                    <a href="#" class="project-link">Coming Soon ↗</a>
+                    <span class="project-link project-link-unavailable">Coming soon</span>
                 </article>
 
             </div>
         </section>
-        ```html
-<!-- LEETCODE SECTION -->
-<section class="section leetcode-section" id="leetcode">
+        <!-- LEETCODE SECTION -->
+        <section class="section leetcode-section" id="leetcode">
 
-    <p class="section-label">04 / PROBLEM SOLVING</p>
+            <p class="section-label">04 / PROBLEM SOLVING</p>
 
-    <h2>
-        Beyond the code.<br>
-        <span class="muted">Into the challenge.</span>
-    </h2>
+            <h2>
+                Beyond the code.<br>
+                <span class="muted">Into the challenge.</span>
+            </h2>
 
-    <p class="section-description">
-        I practice data structures and algorithms, improve my
-        problem-solving skills, and tackle coding challenges on LeetCode.
-    </p>
-
-    <div class="leetcode-card">
-
-        <div class="leetcode-icon">LC</div>
-
-        <div class="leetcode-info">
-            <h3>My LeetCode Profile</h3>
-            <p>
-                Explore my coding journey, problem-solving practice,
-                and algorithmic challenges.
+            <p class="section-description">
+                I practice data structures and algorithms, improve my
+                problem-solving skills, and tackle coding challenges on LeetCode.
             </p>
-        </div>
 
-        <a
-            href="https://leetcode.com/u/a_anuragg10/"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="button-primary">
-            View My Profile ↗
-        </a>
+            <div class="leetcode-card">
 
-    </div>
+                <div class="leetcode-icon">LC</div>
 
-</section>
-```
+                <div class="leetcode-info">
+                    <h3>My LeetCode Profile</h3>
+                    <p>
+                        Explore my coding journey, problem-solving practice,
+                        and algorithmic challenges.
+                    </p>
+                </div>
+
+                <a
+                    href="https://leetcode.com/u/a_anuragg10/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="button-primary">
+                    View My Profile ↗
+                </a>
+
+            </div>
+
+        </section>
 
         <!-- CONTACT SECTION -->
         <section class="section contact-section" id="contact">
-            <p class="section-label">04 / CONTACT</p>
+            <p class="section-label">05 / CONTACT</p>
 
             <h2>Have an opportunity?<br>
                 <span class="highlight">Let's connect.</span>
